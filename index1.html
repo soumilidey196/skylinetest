@@ -1,0 +1,25 @@
+<div ></div>
+<div class="b"></div>
+<div class="c"></div>
+<div class="d"></div>
+<div class="e"></div>
+<div class="f"></div>
+<div class="g"></div>
+<style>
+body{background:#D25B70}
+div {
+    
+    position: fixed;
+        
+    background: #F2E09F;
+    width: 100;
+    height:10;
+    border-radius:5px;
+    top:400;
+    left: 600px;
+    --r: 0deg;
+    transform-origin: 120% 50%;
+    transform: rotate(calc(var(--r)*1deg))
+}
+.b{--r:30}.c{--r:60}.d{--r:90}.e{--r:120}.f{--r:150}.g{--r:180}
+</style>
